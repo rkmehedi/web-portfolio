@@ -133,6 +133,7 @@ background-image: url("images/top-banner.png");
 
 }
 section{
+    padding-bottom: 130px;
     background-repeat:no-repeat;
     height: 500px;}
     .link-button{
@@ -144,3 +145,43 @@ section{
        color: white;
         font-weight: 700px;
     }
+    .section2{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+       
+    }
+    .exp-style{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+    }
+
+    .box-shadow{
+        background-color: white;
+        box-shadow: gray 10px 10px 20px ;
+border-radius: 5px;
+height: 80%;
+    }
+    #color-grad{
+border-left: 7px solid;
+border-image: linear-gradient(lightSalmon,tomato,purple);
+border-image-slice: 1;
+
+
+    }
+    #color-grad2{
+        border-left: 7px solid;
+        border-image: linear-gradient(Green,blue,purple);
+        border-image-slice: 1;
+        
+        
+            }
+
+            footer p{
+text-align: center;
+color: purple;
+font-size: 13px;
+
+            }
